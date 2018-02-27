@@ -1,0 +1,248 @@
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.small-box .inner h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.small-box .inner h2.double {
+    margin-top: 23px;
+}
+
+.footable > thead > tr > th > span.footable-sort-indicator {
+    display: none !important;
+}
+
+h1.entrada {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.comunidade,
+.crm-suporte {
+    text-align: center;
+}
+
+.comunidade h3.box-title,
+.crm-suporte h3.box-title {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.comunidade i.fas,
+.crm-suporte i.fas {
+    font-size: 180px;
+    display: block;
+}
+
+.comunidade i.fas {
+    color: #ffdfaf;
+}
+
+.crm-suporte i.fas {
+    color: #ffa69b;
+}
+
+/* TITULOS */
+
+.content-header > h1 {
+    display: inline-block;
+}
+
+.content-header {
+    padding: 15px 15px 15PX 15px;
+}
+
+/* FILTROS */
+
+.has-error input.input-lg {
+    color: #dd4b39;
+    font-weight: 800;
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+select.form-control {
+    padding: 0;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.btn-filtro p {
+    margin-bottom: 5px;
+}
+
+.btn-filtro button.btn {
+    width: 100%;
+}
+
+.table-filter {
+    font-size: 14px;
+}
+
+.table-filter h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.table-filter tr td {
+    padding: 10px 8px 8px 8px
+}
+
+.table-filter tr td:last-child {
+    text-align: right;
+}
+
+.form-group span.txt-chbox {
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.box-filter .box-body p {
+    margin-bottom: 15px;
+}
+
+.box-filter .box-body p.btns {
+    margin-bottom: 5px;
+}
+
+.box-filter .box-body .form-group {
+    display: inline-block;
+}
+
+input.chbox-filter:first-child {
+    margin-left: 0px;
+}
+
+input.chbox-filter {
+    margin-left: 15px;
+}
+
+.star-right {
+    float: right;
+}
+
+.star-left {
+    float: left;
+}
+
+.rating .stars {
+    margin-right: 15px;
+}
+
+.rating .stars .star {
+    float: left;
+    padding: 0px 4px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.rating .stars .star:before {
+    font-family: "FontAwesome";
+    content: "\f005";
+    color: #eee;
+    font-size: 3em;
+}
+
+.rating .stars .star:hover:before,
+.rating .stars .star.to_rate:before,
+.rating .stars .star.rated:before {
+    color: #e2dd11;
+}
+
+.rating .stars .star.no_to_rate:before {
+    color: #eee;
+}
+
+@media (max-width: 1121px) {
+    .footable.breakpoint > tbody > tr > td > span.footable-toggle {
+        font-size: 12px;
+        color: #fff !important;
+        background-color: #a2a2a2;
+        padding: 8px 10px !important;
+        border-radius: 50px;
+        content: 'teste';
+    }
+
+    .footable-row-detail-value {
+        text-align: left;
+    }
+
+    .footable-row-detail-row {
+        line-height: 2em !important;
+        font-size: 14px;
+        display: table-footer-group !important;
+    }
+
+    .footable-row-detail-row:nth-of-type(odd) {
+        background-color: #f2f2f2;
+    }
+
+    .rating .stars .star {
+        top: 8px;
+        position: relative;
+    }
+
+    .rating .stars .star:before {
+        color: #e4e4e4;
+    }
+
+    .content-header {
+        padding: 15px 15px 0PX 15px;
+    }
+
+    .footable-row-detail-inner {
+        display: table;
+        width: 100%;
+    }
+
+    .footable-row-detail-name {
+        width: 15%;
+    }
+
+    .footable-row-detail-value {
+        padding-left: 15px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .box-filter .box-body p {
+        display: none;
+    }
+
+    .rating .stars {
+        display: inline-block;
+    }
+
+    .content-header > h1 {
+        display: block;
+    }
+
+    .pull-right {
+        float: none !important;
+        margin: 10px 0 0 0;
+    }
+
+    td.footable-visible.footable-last-column a span {
+        display: none;
+    }
+
+    .box-header > .box-tools {
+        top: -5px;
+    }
+}
